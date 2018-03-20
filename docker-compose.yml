@@ -12,7 +12,7 @@ services:
       # Volume dos dados
       - dados:/var/lib/postgresql/data
       #Scripts
-      #Adding just one more comment to test GIT!
+      #Adding just one more comment to test GIT
       - ./scripts:/scripts
       - ./scripts/init.sql:/docker-entrypoint-initdb.d/init.sql
     networks:
